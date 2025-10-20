@@ -1,0 +1,6 @@
+SECTION .data
+  temp_val dd 0
+  a dd 0 ; Assume initial value 0
+  MOV EAX, [a]   ; Load a into EAX
+  IMUL EAX, 2    ; EAX = EAX * 2 (Multiplication)      
+  MOV [temp_val], EAX  ; Store final result in temp_val

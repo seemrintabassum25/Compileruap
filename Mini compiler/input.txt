@@ -1,0 +1,5 @@
+int calculate_final(int a, int b) {
+    float temp_val = a * 2.0;
+    int sum = temp_val + b;
+    return sum;
+}
